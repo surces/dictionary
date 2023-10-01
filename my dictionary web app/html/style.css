@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+}
+
+.book-container{
+    display: flex;
+    width: auto;
+    height: 10vh;
+    margin-top: -55%;
+    column-gap: 2rem;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin-right: 10rem; 
+}
+.book-text{
+    color: white;
+    font-size: 35px;
+   
+}
+.book-icon{
+    color: red;
+    font-size: 35px;
+
+}
+
+.card{
+    width: auto;
+    background-color: black;
+    padding: 3rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 60px 40px -7px;
+    border-radius: 15px;
+}
+.property{
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    margin: 1rem 0;
+    column-gap: 1rem;
+}
+.search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 10vh;
+    background-color: black;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    border-radius: 15px;
+    
+}
+.search-form input{
+    flex-basis: 70%;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    padding: .6rem 1rem;
+    border: none;
+    color: white;
+}
+
+
+.search-button {
+    flex-basis: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:0.3s;
+    background: transparent;
+}
+
+.search-button i {
+    font-size: 1rem;
+    color: white;
+}
+
+
+.search-button:hover {
+    background-color: gray; 
+    border-radius: 50%;
+}
+
+
